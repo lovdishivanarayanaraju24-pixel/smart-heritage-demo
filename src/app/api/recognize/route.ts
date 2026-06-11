@@ -114,7 +114,7 @@ function fallbackByFilename(fileName: string, note?: string) {
   return recognizedSiteResult(
     heritageSites[0],
     fileName,
-    "mock",
+    "none",
     0.85,
     "Mock recognition successful (No API Key provided)."
   );
